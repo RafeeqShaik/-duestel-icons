@@ -1,20 +1,38 @@
-import { readdirSync, writeFileSync } from "fs";
-import { resolve, join, basename } from "path";
+import { readdirSync, writeFileSync, lstatSync } from "fs";
+import { resolve, join } from "path";
 
-const iconsDir = resolve("src/icons");
+// Directory where to look for folders
+const rootDir = resolve("src/icons");
 
+// Path for the output index file
 const indexPath = join(resolve(), "index.ts");
 
-const files = readdirSync(iconsDir).filter((file) => file.endsWith(".tsx"));
+// Get all items in the root directory
+const items = readdirSync(rootDir);
 
-const exportStatements = files
-  .map((file) => {
-    const componentName = basename(file, ".tsx");
-    console.log({ componentName });
-    return `export { default as ${componentName} } from './src/icons/${componentName}';`;
+// Filter to get only directories
+const folders = items.filter((item) => {
+  const fullPath = join(rootDir, item);
+  return lstatSync(fullPath).isDirectory();
+});
+
+// Generate export statements for each folder
+const exportStatements = folders
+  .map((folder) => {
+    // Skip node_modules, hidden folders, and any other folders you want to exclude
+    if (folder.startsWith(".") || folder === "node_modules") {
+      return null;
+    }
+    return `export * from "./src/icons/${folder}";`;
   })
+  .filter((statement) => statement !== null) // Remove null statements
   .join("\n");
 
+// Write the export statements to the index file
 writeFileSync(indexPath, exportStatements);
 
-console.log(`Generated index.ts with ${files.length} icon exports.`);
+console.log(`Generated index.ts with exports from ${folders.length} folders.`);
+
+// Log the generated content for verification
+console.log("\nGenerated content:");
+console.log(exportStatements);

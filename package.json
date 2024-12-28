@@ -1,6 +1,6 @@
 {
   "name": "@duestel/icons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -14,8 +14,9 @@
   "scripts": {
     "fix-icon-names": "npx ts-node scripts/fix-icon-names.ts",
     "generate-icons": "npm run fix-icon-names && npx @svgr/cli --typescript --icon --out-dir src/icons icons",
-    "generate-and-modify-icons": "npm run generate-icons && npx ts-node scripts/modify-icons.ts",
-    "build": "tsup",
+    "generate-index": "npx ts-node scripts/generate-index.ts",
+    "generate-and-modify-icons": "npm run generate-icons && npx ts-node scripts/modify-icons.ts && npm run generate-index",
+    "build": "npm run generate-and-modify-icons && tsup",
     "prepublishOnly": "npm run build",
     "publish": "npm publish --access public"
   },
