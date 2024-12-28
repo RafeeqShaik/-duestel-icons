@@ -25,9 +25,9 @@ const components: Record<variant, (props: IconProps) => JSX.Element> = {
   twotone: Twotone,
 };
 
-const Buildings = ({ variant = "outline", ...rest }: IconProps) => {
+const Trash = ({ variant = "outline", ...rest }: IconProps) => {
   const Slot = components[variant];
   return <Slot {...rest} />;
 };
 
-export default Buildings;
+export default Trash;
