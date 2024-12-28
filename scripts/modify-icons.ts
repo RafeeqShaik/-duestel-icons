@@ -41,11 +41,25 @@ const modifyIcon = (filePath: string) => {
     'fill={props.color || "currentColor"}'
   );
 
+  // Replace hardcoded stroke colors in paths with the color prop
+  const strokeColorRegex = /stroke="([^"]*)"/g;
+  content = content.replace(
+    strokeColorRegex,
+    'stroke={props.color || "currentColor"}'
+  );
+
   // Special handling for fill="#hexcode" pattern
   const hexFillRegex = /fill="#[0-9a-fA-F]{3,6}"/g;
   content = content.replace(
     hexFillRegex,
     'fill={props.color || "currentColor"}'
+  );
+
+  // Special handling for stroke="#hexcode" pattern
+  const hexStrokeRegex = /stroke="#[0-9a-fA-F]{3,6}"/g;
+  content = content.replace(
+    hexStrokeRegex,
+    'stroke={props.color || "currentColor"}'
   );
 
   fs.writeFileSync(filePath, content, "utf-8");
