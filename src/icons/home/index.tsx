@@ -1,5 +1,4 @@
-import React, { JSX } from "react";
-import { SvgProps } from "react-native-svg";
+import React, { JSX, SVGProps } from "react";
 
 import Bold from "./Bold";
 import Broken from "./Broken";
@@ -12,9 +11,12 @@ type variant = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 
 type IconProps = {
   variant?: variant;
-} & SvgProps;
+} & ((SVGProps<SVGSVGElement> & { size?: string | number; color?: string }) & {
+  size?: string | number;
+  color?: string;
+});
 
-const components: Record<variant, (props: SvgProps) => JSX.Element> = {
+const components: Record<variant, (props: IconProps) => JSX.Element> = {
   bold: Bold,
   broken: Broken,
   bulk: Bulk,

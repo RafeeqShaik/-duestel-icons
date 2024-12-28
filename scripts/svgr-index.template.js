@@ -11,8 +11,7 @@ module.exports = (filePaths) => {
 
   // Add React import
   exportEntries.push(`
-    import React, { JSX } from "react";
-    import { SvgProps } from "react-native-svg";
+      import React, { JSX, SVGProps } from "react";
     `);
 
   // Process each file path
@@ -35,9 +34,12 @@ module.exports = (filePaths) => {
 
     type IconProps = {
       variant?: variant;
-    } & SvgProps;
+    } & (SVGProps<SVGSVGElement> & {
+      size?: string | number;
+      color?: string;
+    });
 
-    const components: Record<variant, (props: SvgProps) => JSX.Element> = {
+    const components: Record<variant, (props: IconProps) => JSX.Element> = {
       bold: Bold,
       broken: Broken,
       bulk: Bulk,
