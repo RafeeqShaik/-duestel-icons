@@ -13,7 +13,7 @@
   },
   "scripts": {
     "fix-icon-names": "npx ts-node scripts/fix-icon-names.ts",
-    "generate-icons": "npm run fix-icon-names && npx @svgr/cli --typescript --icon --out-dir src/icons icons",
+    "generate-icons": "npx ts-node scripts/pre-script.ts && npm run fix-icon-names && npx @svgr/cli --typescript --ext tsx --index-template ./scripts/svgr-index.template.js --icon --native --out-dir src/icons icons",
     "generate-index": "npx ts-node scripts/generate-index.ts",
     "generate-and-modify-icons": "npm run generate-icons && npx ts-node scripts/modify-icons.ts && npm run generate-index",
     "build": "npm run generate-and-modify-icons && tsup",
@@ -41,6 +41,7 @@
     "@types/react-dom": "^19.0.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-native-svg": "^15.10.1",
     "svgo": "^3.3.2",
     "ts-node": "^10.9.2",
     "tsup": "^8.3.5",
