@@ -38,6 +38,7 @@ var SvgBold = (props) => /* @__PURE__ */ jsxRuntime.jsx(
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
   }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: props.color || "currentColor",
     viewBox: "0 0 24 24"
   }), props), {
     children: /* @__PURE__ */ jsxRuntime.jsx(
@@ -55,6 +56,7 @@ var SvgBroken = (props) => /* @__PURE__ */ jsxRuntime.jsx(
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
   }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: props.color || "currentColor",
     viewBox: "0 0 24 24"
   }), props), {
     children: /* @__PURE__ */ jsxRuntime.jsx(
@@ -75,6 +77,7 @@ var SvgBulk = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
   }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: props.color || "currentColor",
     viewBox: "0 0 24 24"
   }), props), {
     children: [
@@ -102,6 +105,7 @@ var SvgLinear = (props) => /* @__PURE__ */ jsxRuntime.jsx(
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
   }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: props.color || "currentColor",
     viewBox: "0 0 24 24"
   }), props), {
     children: /* @__PURE__ */ jsxRuntime.jsx(
@@ -122,6 +126,7 @@ var SvgOutline = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
   }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: props.color || "currentColor",
     viewBox: "0 0 24 24"
   }), props), {
     children: [
@@ -148,6 +153,7 @@ var SvgTwotone = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
   }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: props.color || "currentColor",
     viewBox: "0 0 24 24"
   }), props), {
     children: [
@@ -195,6 +201,7 @@ var SvgBold2 = (props) => /* @__PURE__ */ jsxRuntime.jsx(
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
   }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: props.color || "currentColor",
     viewBox: "0 0 24 24"
   }), props), {
     children: /* @__PURE__ */ jsxRuntime.jsx(
@@ -212,6 +219,7 @@ var SvgBroken2 = (props) => /* @__PURE__ */ jsxRuntime.jsx(
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
   }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: props.color || "currentColor",
     viewBox: "0 0 24 24"
   }), props), {
     children: /* @__PURE__ */ jsxRuntime.jsx(
@@ -232,6 +240,7 @@ var SvgBulk2 = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
   }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: props.color || "currentColor",
     viewBox: "0 0 24 24"
   }), props), {
     children: [
@@ -259,6 +268,7 @@ var SvgLinear2 = (props) => /* @__PURE__ */ jsxRuntime.jsx(
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
   }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: props.color || "currentColor",
     viewBox: "0 0 24 24"
   }), props), {
     children: /* @__PURE__ */ jsxRuntime.jsx(
@@ -279,6 +289,7 @@ var SvgOutline2 = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
   }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: props.color || "currentColor",
     viewBox: "0 0 24 24"
   }), props), {
     children: [
@@ -305,6 +316,7 @@ var SvgTwotone2 = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
   }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: props.color || "currentColor",
     viewBox: "0 0 24 24"
   }), props), {
     children: [

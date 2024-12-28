@@ -29,7 +29,7 @@ const modifyIcon = (filePath: string) => {
       .replace(/height="[^"]*"/, "");
 
     // Remove fill="none" if present as we'll handle fill with the color prop
-    newSvgAttributes = newSvgAttributes.replace(/fill="none"/, "");
+    // newSvgAttributes = newSvgAttributes.replace(/fill="none"/, "");
 
     content = content.replace(svgTagRegex, `<svg${newSvgAttributes}>`);
   }
