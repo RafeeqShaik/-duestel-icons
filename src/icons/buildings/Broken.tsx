@@ -10,7 +10,7 @@ const SvgBroken = (props: (SVGProps<SVGSVGElement> & { size?: string | number; c
     {...props}
   >
     <path
-      stroke="#171717"
+      stroke={props.color || "currentColor"}
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}

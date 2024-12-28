@@ -58,7 +58,7 @@ var SvgBroken = (props) => /* @__PURE__ */ jsx(
     children: /* @__PURE__ */ jsx(
       "path",
       {
-        stroke: "#171717",
+        stroke: props.color || "currentColor",
         strokeLinecap: "round",
         strokeLinejoin: "round",
         strokeWidth: 1.5,
@@ -105,7 +105,7 @@ var SvgLinear = (props) => /* @__PURE__ */ jsx(
     children: /* @__PURE__ */ jsx(
       "path",
       {
-        stroke: "#171717",
+        stroke: props.color || "currentColor",
         strokeLinecap: "round",
         strokeLinejoin: "round",
         strokeWidth: 1.5,
@@ -152,7 +152,7 @@ var SvgTwotone = (props) => /* @__PURE__ */ jsxs(
       /* @__PURE__ */ jsx(
         "path",
         {
-          stroke: "#171717",
+          stroke: props.color || "currentColor",
           strokeLinecap: "round",
           strokeLinejoin: "round",
           strokeWidth: 1.5,
@@ -162,7 +162,7 @@ var SvgTwotone = (props) => /* @__PURE__ */ jsxs(
       /* @__PURE__ */ jsx(
         "path",
         {
-          stroke: "#171717",
+          stroke: props.color || "currentColor",
           strokeLinecap: "round",
           strokeLinejoin: "round",
           strokeWidth: 1.5,
@@ -215,7 +215,7 @@ var SvgBroken2 = (props) => /* @__PURE__ */ jsx(
     children: /* @__PURE__ */ jsx(
       "path",
       {
-        stroke: "#171717",
+        stroke: props.color || "currentColor",
         strokeLinecap: "round",
         strokeLinejoin: "round",
         strokeWidth: 1.5,
@@ -262,7 +262,7 @@ var SvgLinear2 = (props) => /* @__PURE__ */ jsx(
     children: /* @__PURE__ */ jsx(
       "path",
       {
-        stroke: "#171717",
+        stroke: props.color || "currentColor",
         strokeLinecap: "round",
         strokeLinejoin: "round",
         strokeWidth: 1.5,
@@ -309,7 +309,7 @@ var SvgTwotone2 = (props) => /* @__PURE__ */ jsxs(
       /* @__PURE__ */ jsx(
         "path",
         {
-          stroke: "#171717",
+          stroke: props.color || "currentColor",
           strokeLinecap: "round",
           strokeLinejoin: "round",
           strokeWidth: 1.5,
@@ -319,7 +319,7 @@ var SvgTwotone2 = (props) => /* @__PURE__ */ jsxs(
       /* @__PURE__ */ jsx(
         "path",
         {
-          stroke: "#171717",
+          stroke: props.color || "currentColor",
           strokeLinecap: "round",
           strokeLinejoin: "round",
           strokeWidth: 1.5,
