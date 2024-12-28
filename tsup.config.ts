@@ -2,11 +2,14 @@ import { defineConfig } from "tsup";
 
 export default defineConfig({
   entry: ["index.ts"],
-  outDir: "dist",
   format: ["cjs", "esm"],
   dts: true,
-  splitting: true,
+  splitting: false,
   sourcemap: true,
   clean: true,
-  external: ["react", "react-dom"],
+  treeshake: true,
+  external: ["react", "react-native", "react-native-svg"],
+  esbuildOptions(options) {
+    options.platform = "neutral";
+  },
 });

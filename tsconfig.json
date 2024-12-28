@@ -1,19 +1,20 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "jsx": "react-jsx",
     "declaration": true,
     "declarationDir": "dist/types",
     "outDir": "dist",
     "strict": true,
     "esModuleInterop": true,
-    "moduleResolution": "node",
     "skipLibCheck": true,
     "isolatedModules": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "allowJs": true,
+    "resolveJsonModule": true
   },
   "include": ["src/**/*", "scripts/*", "index.ts"],
-  "exclude": ["node_modules", "dist"],
-  "lib": ["es2015"]
+  "exclude": ["node_modules", "dist"]
 }
