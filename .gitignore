@@ -19,8 +19,3 @@ Thumbs.db
 *.ntvs*
 *.njsproj
 *.sln
-
-# Build directories
-dist/
-build/
-out/
