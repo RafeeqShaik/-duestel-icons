@@ -23,7 +23,10 @@ const exportStatements = folders
     if (folder.startsWith(".") || folder === "node_modules") {
       return null;
     }
-    return `export * from "./src/icons/${folder}";`;
+
+    return `export { default as ${
+      folder.charAt(0).toUpperCase() + folder.slice(1)
+    } } from "./src/icons/${folder}";`;
   })
   .filter((statement) => statement !== null) // Remove null statements
   .join("\n");
