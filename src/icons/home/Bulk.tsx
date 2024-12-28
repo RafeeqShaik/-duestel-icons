@@ -5,7 +5,7 @@ const SvgBulk = (props: (SVGProps<SVGSVGElement> & { size?: string | number; col
     xmlns="http://www.w3.org/2000/svg"
     {...(props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" })}
     
-    fill={props.color || "currentColor"}
+    fill="none"
     viewBox="0 0 24 24"
     {...props}
   >
@@ -15,7 +15,7 @@ const SvgBulk = (props: (SVGProps<SVGSVGElement> & { size?: string | number; col
       opacity={0.4}
     />
     <path
-      fill={props.color || "currentColor"}
+      fill="red"
       d="M12 18.75c-.41 0-.75-.34-.75-.75v-3c0-.41.34-.75.75-.75s.75.34.75.75v3c0 .41-.34.75-.75.75"
     />
   </svg>

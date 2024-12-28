@@ -28,16 +28,12 @@ const modifyIcon = (filePath: string) => {
       )
       .replace(/height="[^"]*"/, "");
 
-    // Remove fill="none" if present as we'll handle fill with the color prop
-    // newSvgAttributes = newSvgAttributes.replace(/fill="none"/, "");
-
     content = content.replace(svgTagRegex, `<svg${newSvgAttributes}>`);
   }
 
-  // Replace hardcoded fill colors in paths with the color prop
-  const fillColorRegex = /fill="([^"]*)"/g;
+  // Replace only hex code fill colors with the color prop, preserve fill="none"
   content = content.replace(
-    fillColorRegex,
+    /fill="#[0-9a-fA-F]{3,6}"/g,
     'fill={props.color || "currentColor"}'
   );
 
@@ -45,20 +41,6 @@ const modifyIcon = (filePath: string) => {
   const strokeColorRegex = /stroke="([^"]*)"/g;
   content = content.replace(
     strokeColorRegex,
-    'stroke={props.color || "currentColor"}'
-  );
-
-  // Special handling for fill="#hexcode" pattern
-  const hexFillRegex = /fill="#[0-9a-fA-F]{3,6}"/g;
-  content = content.replace(
-    hexFillRegex,
-    'fill={props.color || "currentColor"}'
-  );
-
-  // Special handling for stroke="#hexcode" pattern
-  const hexStrokeRegex = /stroke="#[0-9a-fA-F]{3,6}"/g;
-  content = content.replace(
-    hexStrokeRegex,
     'stroke={props.color || "currentColor"}'
   );
 
@@ -73,7 +55,6 @@ const processDirectory = async (dirPath: string) => {
       const fullPath = path.join(dirPath, entry.name);
 
       if (entry.isDirectory()) {
-        // Recursively process subdirectories
         await processDirectory(fullPath);
       } else if (entry.isFile() && path.extname(entry.name) === ".tsx") {
         try {
