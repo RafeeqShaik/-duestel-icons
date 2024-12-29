@@ -13,10 +13,10 @@
   },
   "scripts": {
     "fix-icon-names": "bun run scripts/fix-icon-names.ts",
-    "generate-icons": "bun run scripts/pre-script.ts && bun run fix-icon-names && bunx @svgr/cli --typescript --ext tsx --index-template ./scripts/svgr-index.template.js --icon --out-dir src/icons icons",
+    "generate-icons": "bun run scripts/pre-script.ts && bun run fix-icon-names && npx @svgr/cli --typescript --ext tsx --index-template ./scripts/svgr-index.template.js --icon --out-dir src/icons icons",
     "generate-index": "bun run scripts/generate-index.ts",
     "generate-and-modify-icons": "bun run generate-icons && bun run scripts/modify-icons.ts && bun run generate-index",
-    "build": "bun run generate-and-modify-icons && bunx tsup",
+    "build": "bun run generate-and-modify-icons && npx tsup",
     "prepublishOnly": "bun run build",
     "publish": "npm publish --access public"
   },

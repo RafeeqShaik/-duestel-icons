@@ -45,7 +45,7 @@ var SvgBold = (props) => /* @__PURE__ */ jsxRuntime.jsx(
       "path",
       {
         fill: props.color || "currentColor",
-        d: "M21.07 5.23c-1.61-.16-3.22-.28-4.84-.37v-.01l-.22-1.3c-.15-.92-.37-2.3-2.71-2.3h-2.62c-2.33 0-2.55 1.32-2.71 2.29l-.21 1.28c-.93.06-1.86.12-2.79.21l-2.04.2c-.42.04-.72.41-.68.82s.4.71.82.67l2.04-.2c5.24-.52 10.52-.32 15.82.21h.08c.38 0 .71-.29.75-.68a.766.766 0 0 0-.69-.82M19.23 8.14c-.24-.25-.57-.39-.91-.39H5.68c-.34 0-.68.14-.91.39s-.36.59-.34.94l.62 10.26c.11 1.52.25 3.42 3.74 3.42h6.42c3.49 0 3.63-1.89 3.74-3.42l.62-10.25c.02-.36-.11-.7-.34-.95m-5.57 9.61h-3.33c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h3.33c.41 0 .75.34.75.75s-.34.75-.75.75m.84-4h-5c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h5c.41 0 .75.34.75.75s-.34.75-.75.75"
+        d: "M12.93 4.79H7.35C3.25 4.79 2 6.04 2 10.14v3.72c0 4.1 1.25 5.35 5.35 5.35h5.58c4.1 0 5.35-1.25 5.35-5.35v-3.72c0-4.1-1.25-5.35-5.35-5.35M20.42 9c-.14-.01-.32-.02-.52-.02-.39 0-.7.31-.7.7v4.65c0 .39.31.7.7.7.2 0 .37-.01.54-.02C22 14.83 22 13.73 22 12.93v-1.86c0-.8 0-1.9-1.58-2.07"
       }
     )
   })
@@ -66,13 +66,167 @@ var SvgBroken = (props) => /* @__PURE__ */ jsxRuntime.jsx(
         strokeLinecap: "round",
         strokeLinejoin: "round",
         strokeWidth: 1.5,
-        d: "M21 5.98c-3.33-.33-6.68-.5-10.02-.5q-2.97 0-5.94.3L3 5.98M8.5 4.97l.22-1.31C8.88 2.71 9 2 10.69 2h2.62c1.69 0 1.82.75 1.97 1.67l.22 1.3M15.21 22H8.79C6 22 5.91 20.78 5.8 19.21L5.15 9.14M18.85 9.14l-.65 10.07M10.33 16.5h3.33M12.82 12.5h1.68M9.5 12.5h.83"
+        d: "M10.97 5H13c4 0 5 1 5 5v4c0 2-.25 3.25-1 4s-2 1-4 1H7c-4 0-5-1-5-5v-4c0-4 1-5 5-5M20.5 9.5c.86 0 1.23.16 1.38.49.12.25.12.58.12 1.01v2c0 1 0 1.5-1.5 1.5"
       }
     )
   })
 );
 var Broken_default = SvgBroken;
 var SvgBulk = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
+  "svg",
+  __spreadProps(__spreadValues(__spreadProps(__spreadValues({
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }), props), {
+    children: [
+      /* @__PURE__ */ jsxRuntime.jsx(
+        "path",
+        {
+          fill: props.color || "currentColor",
+          d: "M12.93 4.79H7.35C3.25 4.79 2 6.04 2 10.14v3.72c0 4.1 1.25 5.35 5.35 5.35h5.58c4.1 0 5.35-1.25 5.35-5.35v-3.72c0-4.1-1.25-5.35-5.35-5.35",
+          opacity: 0.4
+        }
+      ),
+      /* @__PURE__ */ jsxRuntime.jsx(
+        "path",
+        {
+          fill: props.color || "currentColor",
+          d: "M20.42 9c-.14-.01-.32-.02-.52-.02-.39 0-.7.31-.7.7v4.65c0 .39.31.7.7.7.2 0 .37-.01.54-.02C22 14.83 22 13.73 22 12.93v-1.86c0-.8 0-1.9-1.58-2.07"
+        }
+      )
+    ]
+  })
+);
+var Bulk_default = SvgBulk;
+var SvgLinear = (props) => /* @__PURE__ */ jsxRuntime.jsx(
+  "svg",
+  __spreadProps(__spreadValues(__spreadProps(__spreadValues({
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }), props), {
+    children: /* @__PURE__ */ jsxRuntime.jsx(
+      "path",
+      {
+        stroke: props.color || "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: 1.5,
+        d: "M13 19H7c-4 0-5-1-5-5v-4c0-4 1-5 5-5h6c4 0 5 1 5 5v4c0 4-1 5-5 5M20.5 9.5C22 9.5 22 10 22 11v2c0 1 0 1.5-1.5 1.5"
+      }
+    )
+  })
+);
+var Linear_default = SvgLinear;
+var SvgOutline = (props) => /* @__PURE__ */ jsxRuntime.jsx(
+  "svg",
+  __spreadProps(__spreadValues(__spreadProps(__spreadValues({
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }), props), {
+    children: /* @__PURE__ */ jsxRuntime.jsx(
+      "path",
+      {
+        fill: props.color || "currentColor",
+        d: "M13 19.75H7c-4.41 0-5.75-1.34-5.75-5.75v-4c0-4.41 1.34-5.75 5.75-5.75h6c4.41 0 5.75 1.34 5.75 5.75v4c0 4.41-1.34 5.75-5.75 5.75m-6-14c-3.58 0-4.25.68-4.25 4.25v4c0 3.57.67 4.25 4.25 4.25h6c3.58 0 4.25-.68 4.25-4.25v-4c0-3.57-.67-4.25-4.25-4.25zM20.5 15.25c-.41 0-.75-.34-.75-.75s.34-.75.75-.75c.59 0 .72-.09.73-.09.02-.06.02-.41.02-.66v-2c0-.25 0-.59-.04-.68.01.01-.16-.07-.71-.07-.41 0-.75-.34-.75-.75s.34-.75.75-.75c2.08 0 2.25 1.02 2.25 2.25v2c0 1.23-.17 2.25-2.25 2.25"
+      }
+    )
+  })
+);
+var Outline_default = SvgOutline;
+var SvgTwotone = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
+  "svg",
+  __spreadProps(__spreadValues(__spreadProps(__spreadValues({
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }), props), {
+    children: [
+      /* @__PURE__ */ jsxRuntime.jsx(
+        "path",
+        {
+          stroke: props.color || "currentColor",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: 1.5,
+          d: "M13 19H7c-4 0-5-1-5-5v-4c0-4 1-5 5-5h6c4 0 5 1 5 5v4c0 4-1 5-5 5"
+        }
+      ),
+      /* @__PURE__ */ jsxRuntime.jsx(
+        "path",
+        {
+          stroke: props.color || "currentColor",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: 1.5,
+          d: "M20.5 9.5C22 9.5 22 10 22 11v2c0 1 0 1.5-1.5 1.5",
+          opacity: 0.34
+        }
+      )
+    ]
+  })
+);
+var Twotone_default = SvgTwotone;
+var components = {
+  bold: Bold_default,
+  broken: Broken_default,
+  bulk: Bulk_default,
+  linear: Linear_default,
+  outline: Outline_default,
+  twotone: Twotone_default
+};
+var BatteryEmpty = (_a) => {
+  var _b = _a, { variant = "outline" } = _b, rest = __objRest(_b, ["variant"]);
+  const Slot = components[variant];
+  return /* @__PURE__ */ jsxRuntime.jsx(Slot, __spreadValues({}, rest));
+};
+var batteryEmpty_default = BatteryEmpty;
+var SvgBold2 = (props) => /* @__PURE__ */ jsxRuntime.jsx(
+  "svg",
+  __spreadProps(__spreadValues(__spreadProps(__spreadValues({
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }), props), {
+    children: /* @__PURE__ */ jsxRuntime.jsx(
+      "path",
+      {
+        fill: props.color || "currentColor",
+        d: "M21.07 5.23c-1.61-.16-3.22-.28-4.84-.37v-.01l-.22-1.3c-.15-.92-.37-2.3-2.71-2.3h-2.62c-2.33 0-2.55 1.32-2.71 2.29l-.21 1.28c-.93.06-1.86.12-2.79.21l-2.04.2c-.42.04-.72.41-.68.82s.4.71.82.67l2.04-.2c5.24-.52 10.52-.32 15.82.21h.08c.38 0 .71-.29.75-.68a.766.766 0 0 0-.69-.82M19.23 8.14c-.24-.25-.57-.39-.91-.39H5.68c-.34 0-.68.14-.91.39s-.36.59-.34.94l.62 10.26c.11 1.52.25 3.42 3.74 3.42h6.42c3.49 0 3.63-1.89 3.74-3.42l.62-10.25c.02-.36-.11-.7-.34-.95m-5.57 9.61h-3.33c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h3.33c.41 0 .75.34.75.75s-.34.75-.75.75m.84-4h-5c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h5c.41 0 .75.34.75.75s-.34.75-.75.75"
+      }
+    )
+  })
+);
+var Bold_default2 = SvgBold2;
+var SvgBroken2 = (props) => /* @__PURE__ */ jsxRuntime.jsx(
+  "svg",
+  __spreadProps(__spreadValues(__spreadProps(__spreadValues({
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props.size ? { width: props.size, height: props.size } : { width: "1em", height: "1em" }), {
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }), props), {
+    children: /* @__PURE__ */ jsxRuntime.jsx(
+      "path",
+      {
+        stroke: props.color || "currentColor",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeWidth: 1.5,
+        d: "M21 5.98c-3.33-.33-6.68-.5-10.02-.5q-2.97 0-5.94.3L3 5.98M8.5 4.97l.22-1.31C8.88 2.71 9 2 10.69 2h2.62c1.69 0 1.82.75 1.97 1.67l.22 1.3M15.21 22H8.79C6 22 5.91 20.78 5.8 19.21L5.15 9.14M18.85 9.14l-.65 10.07M10.33 16.5h3.33M12.82 12.5h1.68M9.5 12.5h.83"
+      }
+    )
+  })
+);
+var Broken_default2 = SvgBroken2;
+var SvgBulk2 = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
   "svg",
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
@@ -108,8 +262,8 @@ var SvgBulk = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
     ]
   })
 );
-var Bulk_default = SvgBulk;
-var SvgLinear = (props) => /* @__PURE__ */ jsxRuntime.jsx(
+var Bulk_default2 = SvgBulk2;
+var SvgLinear2 = (props) => /* @__PURE__ */ jsxRuntime.jsx(
   "svg",
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
@@ -129,8 +283,8 @@ var SvgLinear = (props) => /* @__PURE__ */ jsxRuntime.jsx(
     )
   })
 );
-var Linear_default = SvgLinear;
-var SvgOutline = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
+var Linear_default2 = SvgLinear2;
+var SvgOutline2 = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
   "svg",
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
@@ -163,8 +317,8 @@ var SvgOutline = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
     ]
   })
 );
-var Outline_default = SvgOutline;
-var SvgTwotone = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
+var Outline_default2 = SvgOutline2;
+var SvgTwotone2 = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
   "svg",
   __spreadProps(__spreadValues(__spreadProps(__spreadValues({
     xmlns: "http://www.w3.org/2000/svg"
@@ -218,22 +372,23 @@ var SvgTwotone = (props) => /* @__PURE__ */ jsxRuntime.jsxs(
     ]
   })
 );
-var Twotone_default = SvgTwotone;
-var components = {
-  bold: Bold_default,
-  broken: Broken_default,
-  bulk: Bulk_default,
-  linear: Linear_default,
-  outline: Outline_default,
-  twotone: Twotone_default
+var Twotone_default2 = SvgTwotone2;
+var components2 = {
+  bold: Bold_default2,
+  broken: Broken_default2,
+  bulk: Bulk_default2,
+  linear: Linear_default2,
+  outline: Outline_default2,
+  twotone: Twotone_default2
 };
 var Trash = (_a) => {
   var _b = _a, { variant = "outline" } = _b, rest = __objRest(_b, ["variant"]);
-  const Slot = components[variant];
+  const Slot = components2[variant];
   return /* @__PURE__ */ jsxRuntime.jsx(Slot, __spreadValues({}, rest));
 };
 var trash_default = Trash;
 
+exports.BatteryEmpty = batteryEmpty_default;
 exports.Trash = trash_default;
 //# sourceMappingURL=index.js.map
 //# sourceMappingURL=index.js.map
