@@ -1,4 +1,9 @@
 const path = require("path");
+const os = require("os");
+
+const capitalize = (str = "") => {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+};
 
 module.exports = (filePaths) => {
   const exportEntries = [];
@@ -17,14 +22,17 @@ module.exports = (filePaths) => {
   // Process each file path
   exportEntries.push(
     ...filePaths.map((filePath, idx) => {
+      console.log(filePaths);
       // Extract component name without the file extension
-      const componentName = filePath.path
-        .split("/")
+      const componentName = filePath.originalPath
+        .split(os.platform() === "win32" ? "\\" : "/")
         .pop()
         .replace(/\.[^.]+$/, "") // Removes the last file extension (e.g., .tsx, .svg)
         .replace(/[^a-zA-Z0-9]/g, "_"); // Ensures valid variable names
 
-      return `import ${componentName} from './${componentName}';`;
+      return `import ${capitalize(componentName)} from './${capitalize(
+        componentName
+      )}';`;
     })
   );
 
