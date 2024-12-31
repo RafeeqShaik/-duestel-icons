@@ -15,6 +15,6 @@
     "allowJs": true,
     "resolveJsonModule": true
   },
-  "include": ["src/**/*", "scripts/*", "index.ts"],
+  "include": ["src/**/*", "scripts/*", "index.ts", "model"],
   "exclude": ["node_modules", "dist"]
 }

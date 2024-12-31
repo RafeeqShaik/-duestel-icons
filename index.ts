@@ -6,12 +6,11 @@ export type IconVariant =
   | "outline"
   | "twotone";
 export type Icon = {
-  name: string;
-  tags: string[];
-  categories: string[];
-  jsxComponentName: string;
-};
-
+    name: string;
+    tags: string[];
+    categories: string[];
+    jsxComponentName: string
+  };
 export { default as Weight } from "./src/icons/weight";
 export { default as EmojiNormal } from "./src/icons/emojiNormal";
 export { default as BatteryEmpty2 } from "./src/icons/batteryEmpty2";

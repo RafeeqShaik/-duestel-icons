@@ -1,18 +1,8 @@
 import "dotenv/config";
-import mongoose, { Schema } from "mongoose";
-import { Icon } from "..";
 
 import * as _localIcons from "..";
 import mongoDBConnection from "./server";
-
-const schema = new Schema<Icon>({
-  categories: { type: [String], required: true, default: [] },
-  tags: { type: [String], required: true, default: [] },
-  name: { type: String, required: true },
-  jsxComponentName: { type: String, required: true },
-});
-
-const IconModel = mongoose.model("icon", schema);
+import { IconModel } from "../model/model";
 
 async function seedData() {
   console.log("connecting to database...");
