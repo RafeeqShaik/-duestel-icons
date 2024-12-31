@@ -16,23 +16,41 @@ const folders = items.filter((item) => {
   return lstatSync(fullPath).isDirectory();
 });
 
-// Generate export statements for each folder
-const exportStatements = folders
-  .map((folder) => {
-    // Skip node_modules, hidden folders, and any other folders you want to exclude
-    if (folder.startsWith(".") || folder === "node_modules") {
-      return null;
-    }
+const exportStatements = [
+  `export type IconVariant =
+  | "bold"
+  | "broken"
+  | "bulk"
+  | "linear"
+  | "outline"
+  | "twotone";`,
 
-    return `export { default as ${
-      folder.charAt(0).toUpperCase() + folder.slice(1)
-    } } from "./src/icons/${folder}";`;
-  })
-  .filter((statement) => statement !== null) // Remove null statements
-  .join("\n");
+  `export type Icon = {
+    name: string;
+    tags: string[];
+    categories: string[];
+    jsxComponentName: string
+  };`,
+];
+
+// Generate export statements for each folder
+exportStatements.push(
+  ...folders
+    .map((folder) => {
+      // Skip node_modules, hidden folders, and any other folders you want to exclude
+      if (folder.startsWith(".") || folder === "node_modules") {
+        return null;
+      }
+
+      return `export { default as ${
+        folder.charAt(0).toUpperCase() + folder.slice(1)
+      } } from "./src/icons/${folder}";`;
+    })
+    .filter((statement) => statement !== null)
+); // Remove null statements
 
 // Write the export statements to the index file
-writeFileSync(indexPath, exportStatements);
+writeFileSync(indexPath, exportStatements.join("\n"));
 
 console.log(`Generated index.ts with exports from ${folders.length} folders.`);
 

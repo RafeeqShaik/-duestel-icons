@@ -11,7 +11,7 @@ type IconProps$1A = {
     size?: string | number;
     color?: string;
 });
-declare const Add: ({ variant, ...rest }: IconProps$1A) => react_jsx_runtime.JSX.Element;
+declare const Weight: ({ variant, ...rest }: IconProps$1A) => react_jsx_runtime.JSX.Element;
 
 type variant$1z = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1z = {
@@ -23,7 +23,7 @@ type IconProps$1z = {
     size?: string | number;
     color?: string;
 });
-declare const AddCircle: ({ variant, ...rest }: IconProps$1z) => react_jsx_runtime.JSX.Element;
+declare const EmojiNormal: ({ variant, ...rest }: IconProps$1z) => react_jsx_runtime.JSX.Element;
 
 type variant$1y = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1y = {
@@ -35,7 +35,7 @@ type IconProps$1y = {
     size?: string | number;
     color?: string;
 });
-declare const AddSquare: ({ variant, ...rest }: IconProps$1y) => react_jsx_runtime.JSX.Element;
+declare const BatteryEmpty2: ({ variant, ...rest }: IconProps$1y) => react_jsx_runtime.JSX.Element;
 
 type variant$1x = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1x = {
@@ -47,7 +47,7 @@ type IconProps$1x = {
     size?: string | number;
     color?: string;
 });
-declare const Archive: ({ variant, ...rest }: IconProps$1x) => react_jsx_runtime.JSX.Element;
+declare const SignPost: ({ variant, ...rest }: IconProps$1x) => react_jsx_runtime.JSX.Element;
 
 type variant$1w = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1w = {
@@ -59,7 +59,7 @@ type IconProps$1w = {
     size?: string | number;
     color?: string;
 });
-declare const AutoBrightness: ({ variant, ...rest }: IconProps$1w) => react_jsx_runtime.JSX.Element;
+declare const Wifi: ({ variant, ...rest }: IconProps$1w) => react_jsx_runtime.JSX.Element;
 
 type variant$1v = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1v = {
@@ -71,7 +71,7 @@ type IconProps$1v = {
     size?: string | number;
     color?: string;
 });
-declare const Battery2: ({ variant, ...rest }: IconProps$1v) => react_jsx_runtime.JSX.Element;
+declare const Tree: ({ variant, ...rest }: IconProps$1v) => react_jsx_runtime.JSX.Element;
 
 type variant$1u = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1u = {
@@ -83,7 +83,7 @@ type IconProps$1u = {
     size?: string | number;
     color?: string;
 });
-declare const BatteryCharging: ({ variant, ...rest }: IconProps$1u) => react_jsx_runtime.JSX.Element;
+declare const Crown: ({ variant, ...rest }: IconProps$1u) => react_jsx_runtime.JSX.Element;
 
 type variant$1t = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1t = {
@@ -95,7 +95,7 @@ type IconProps$1t = {
     size?: string | number;
     color?: string;
 });
-declare const BatteryDisable: ({ variant, ...rest }: IconProps$1t) => react_jsx_runtime.JSX.Element;
+declare const SafeHome: ({ variant, ...rest }: IconProps$1t) => react_jsx_runtime.JSX.Element;
 
 type variant$1s = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1s = {
@@ -107,7 +107,7 @@ type IconProps$1s = {
     size?: string | number;
     color?: string;
 });
-declare const BatteryEmpty: ({ variant, ...rest }: IconProps$1s) => react_jsx_runtime.JSX.Element;
+declare const Lamp: ({ variant, ...rest }: IconProps$1s) => react_jsx_runtime.JSX.Element;
 
 type variant$1r = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1r = {
@@ -119,7 +119,7 @@ type IconProps$1r = {
     size?: string | number;
     color?: string;
 });
-declare const BatteryEmpty2: ({ variant, ...rest }: IconProps$1r) => react_jsx_runtime.JSX.Element;
+declare const Home: ({ variant, ...rest }: IconProps$1r) => react_jsx_runtime.JSX.Element;
 
 type variant$1q = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1q = {
@@ -131,7 +131,7 @@ type IconProps$1q = {
     size?: string | number;
     color?: string;
 });
-declare const BatteryFull: ({ variant, ...rest }: IconProps$1q) => react_jsx_runtime.JSX.Element;
+declare const FilterTick: ({ variant, ...rest }: IconProps$1q) => react_jsx_runtime.JSX.Element;
 
 type variant$1p = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1p = {
@@ -143,7 +143,7 @@ type IconProps$1p = {
     size?: string | number;
     color?: string;
 });
-declare const Box2: ({ variant, ...rest }: IconProps$1p) => react_jsx_runtime.JSX.Element;
+declare const Flag: ({ variant, ...rest }: IconProps$1p) => react_jsx_runtime.JSX.Element;
 
 type variant$1o = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1o = {
@@ -155,7 +155,7 @@ type IconProps$1o = {
     size?: string | number;
     color?: string;
 });
-declare const Broom: ({ variant, ...rest }: IconProps$1o) => react_jsx_runtime.JSX.Element;
+declare const BatteryEmpty: ({ variant, ...rest }: IconProps$1o) => react_jsx_runtime.JSX.Element;
 
 type variant$1n = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1n = {
@@ -167,7 +167,7 @@ type IconProps$1n = {
     size?: string | number;
     color?: string;
 });
-declare const Bubble: ({ variant, ...rest }: IconProps$1n) => react_jsx_runtime.JSX.Element;
+declare const EmojiSad: ({ variant, ...rest }: IconProps$1n) => react_jsx_runtime.JSX.Element;
 
 type variant$1m = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1m = {
@@ -179,7 +179,7 @@ type IconProps$1m = {
     size?: string | number;
     color?: string;
 });
-declare const Cake: ({ variant, ...rest }: IconProps$1m) => react_jsx_runtime.JSX.Element;
+declare const Ranking: ({ variant, ...rest }: IconProps$1m) => react_jsx_runtime.JSX.Element;
 
 type variant$1l = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1l = {
@@ -191,7 +191,7 @@ type IconProps$1l = {
     size?: string | number;
     color?: string;
 });
-declare const Cd: ({ variant, ...rest }: IconProps$1l) => react_jsx_runtime.JSX.Element;
+declare const Box2: ({ variant, ...rest }: IconProps$1l) => react_jsx_runtime.JSX.Element;
 
 type variant$1k = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1k = {
@@ -203,7 +203,7 @@ type IconProps$1k = {
     size?: string | number;
     color?: string;
 });
-declare const Chart: ({ variant, ...rest }: IconProps$1k) => react_jsx_runtime.JSX.Element;
+declare const Information: ({ variant, ...rest }: IconProps$1k) => react_jsx_runtime.JSX.Element;
 
 type variant$1j = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1j = {
@@ -215,7 +215,7 @@ type IconProps$1j = {
     size?: string | number;
     color?: string;
 });
-declare const Chrome: ({ variant, ...rest }: IconProps$1j) => react_jsx_runtime.JSX.Element;
+declare const Discover: ({ variant, ...rest }: IconProps$1j) => react_jsx_runtime.JSX.Element;
 
 type variant$1i = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1i = {
@@ -227,7 +227,7 @@ type IconProps$1i = {
     size?: string | number;
     color?: string;
 });
-declare const CloseCircle: ({ variant, ...rest }: IconProps$1i) => react_jsx_runtime.JSX.Element;
+declare const HappyEmoji: ({ variant, ...rest }: IconProps$1i) => react_jsx_runtime.JSX.Element;
 
 type variant$1h = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1h = {
@@ -239,7 +239,7 @@ type IconProps$1h = {
     size?: string | number;
     color?: string;
 });
-declare const CloseSquare: ({ variant, ...rest }: IconProps$1h) => react_jsx_runtime.JSX.Element;
+declare const Cup: ({ variant, ...rest }: IconProps$1h) => react_jsx_runtime.JSX.Element;
 
 type variant$1g = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1g = {
@@ -251,7 +251,7 @@ type IconProps$1g = {
     size?: string | number;
     color?: string;
 });
-declare const Coffee: ({ variant, ...rest }: IconProps$1g) => react_jsx_runtime.JSX.Element;
+declare const Forbidden2: ({ variant, ...rest }: IconProps$1g) => react_jsx_runtime.JSX.Element;
 
 type variant$1f = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1f = {
@@ -263,7 +263,7 @@ type IconProps$1f = {
     size?: string | number;
     color?: string;
 });
-declare const Computing: ({ variant, ...rest }: IconProps$1f) => react_jsx_runtime.JSX.Element;
+declare const TagCross: ({ variant, ...rest }: IconProps$1f) => react_jsx_runtime.JSX.Element;
 
 type variant$1e = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1e = {
@@ -275,7 +275,7 @@ type IconProps$1e = {
     size?: string | number;
     color?: string;
 });
-declare const Crown: ({ variant, ...rest }: IconProps$1e) => react_jsx_runtime.JSX.Element;
+declare const Minus: ({ variant, ...rest }: IconProps$1e) => react_jsx_runtime.JSX.Element;
 
 type variant$1d = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1d = {
@@ -287,7 +287,7 @@ type IconProps$1d = {
     size?: string | number;
     color?: string;
 });
-declare const Crown2: ({ variant, ...rest }: IconProps$1d) => react_jsx_runtime.JSX.Element;
+declare const Archive: ({ variant, ...rest }: IconProps$1d) => react_jsx_runtime.JSX.Element;
 
 type variant$1c = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1c = {
@@ -299,7 +299,7 @@ type IconProps$1c = {
     size?: string | number;
     color?: string;
 });
-declare const Cup: ({ variant, ...rest }: IconProps$1c) => react_jsx_runtime.JSX.Element;
+declare const TrashSquare: ({ variant, ...rest }: IconProps$1c) => react_jsx_runtime.JSX.Element;
 
 type variant$1b = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1b = {
@@ -311,7 +311,7 @@ type IconProps$1b = {
     size?: string | number;
     color?: string;
 });
-declare const Danger: ({ variant, ...rest }: IconProps$1b) => react_jsx_runtime.JSX.Element;
+declare const SmartHome: ({ variant, ...rest }: IconProps$1b) => react_jsx_runtime.JSX.Element;
 
 type variant$1a = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1a = {
@@ -323,7 +323,7 @@ type IconProps$1a = {
     size?: string | number;
     color?: string;
 });
-declare const Diamonds: ({ variant, ...rest }: IconProps$1a) => react_jsx_runtime.JSX.Element;
+declare const Sort: ({ variant, ...rest }: IconProps$1a) => react_jsx_runtime.JSX.Element;
 
 type variant$19 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$19 = {
@@ -335,7 +335,7 @@ type IconProps$19 = {
     size?: string | number;
     color?: string;
 });
-declare const Discover: ({ variant, ...rest }: IconProps$19) => react_jsx_runtime.JSX.Element;
+declare const TickCircle: ({ variant, ...rest }: IconProps$19) => react_jsx_runtime.JSX.Element;
 
 type variant$18 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$18 = {
@@ -347,7 +347,7 @@ type IconProps$18 = {
     size?: string | number;
     color?: string;
 });
-declare const EmojiHappy: ({ variant, ...rest }: IconProps$18) => react_jsx_runtime.JSX.Element;
+declare const CloseCircle: ({ variant, ...rest }: IconProps$18) => react_jsx_runtime.JSX.Element;
 
 type variant$17 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$17 = {
@@ -359,7 +359,7 @@ type IconProps$17 = {
     size?: string | number;
     color?: string;
 });
-declare const EmojiNormal: ({ variant, ...rest }: IconProps$17) => react_jsx_runtime.JSX.Element;
+declare const Verify: ({ variant, ...rest }: IconProps$17) => react_jsx_runtime.JSX.Element;
 
 type variant$16 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$16 = {
@@ -371,7 +371,7 @@ type IconProps$16 = {
     size?: string | number;
     color?: string;
 });
-declare const EmojiSad: ({ variant, ...rest }: IconProps$16) => react_jsx_runtime.JSX.Element;
+declare const HomeWifi: ({ variant, ...rest }: IconProps$16) => react_jsx_runtime.JSX.Element;
 
 type variant$15 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$15 = {
@@ -383,7 +383,7 @@ type IconProps$15 = {
     size?: string | number;
     color?: string;
 });
-declare const Filter: ({ variant, ...rest }: IconProps$15) => react_jsx_runtime.JSX.Element;
+declare const BatteryFull: ({ variant, ...rest }: IconProps$15) => react_jsx_runtime.JSX.Element;
 
 type variant$14 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$14 = {
@@ -395,7 +395,7 @@ type IconProps$14 = {
     size?: string | number;
     color?: string;
 });
-declare const FilterAdd: ({ variant, ...rest }: IconProps$14) => react_jsx_runtime.JSX.Element;
+declare const MoreSquare: ({ variant, ...rest }: IconProps$14) => react_jsx_runtime.JSX.Element;
 
 type variant$13 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$13 = {
@@ -407,7 +407,7 @@ type IconProps$13 = {
     size?: string | number;
     color?: string;
 });
-declare const FilterEdit: ({ variant, ...rest }: IconProps$13) => react_jsx_runtime.JSX.Element;
+declare const Milk: ({ variant, ...rest }: IconProps$13) => react_jsx_runtime.JSX.Element;
 
 type variant$12 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$12 = {
@@ -419,7 +419,7 @@ type IconProps$12 = {
     size?: string | number;
     color?: string;
 });
-declare const FilterRemove: ({ variant, ...rest }: IconProps$12) => react_jsx_runtime.JSX.Element;
+declare const TagRight: ({ variant, ...rest }: IconProps$12) => react_jsx_runtime.JSX.Element;
 
 type variant$11 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$11 = {
@@ -431,7 +431,7 @@ type IconProps$11 = {
     size?: string | number;
     color?: string;
 });
-declare const FilterSearch: ({ variant, ...rest }: IconProps$11) => react_jsx_runtime.JSX.Element;
+declare const Speedometer: ({ variant, ...rest }: IconProps$11) => react_jsx_runtime.JSX.Element;
 
 type variant$10 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$10 = {
@@ -443,7 +443,7 @@ type IconProps$10 = {
     size?: string | number;
     color?: string;
 });
-declare const FilterSquare: ({ variant, ...rest }: IconProps$10) => react_jsx_runtime.JSX.Element;
+declare const FilterAdd: ({ variant, ...rest }: IconProps$10) => react_jsx_runtime.JSX.Element;
 
 type variant$$ = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$$ = {
@@ -455,7 +455,7 @@ type IconProps$$ = {
     size?: string | number;
     color?: string;
 });
-declare const FilterTick: ({ variant, ...rest }: IconProps$$) => react_jsx_runtime.JSX.Element;
+declare const Crown2: ({ variant, ...rest }: IconProps$$) => react_jsx_runtime.JSX.Element;
 
 type variant$_ = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$_ = {
@@ -467,7 +467,7 @@ type IconProps$_ = {
     size?: string | number;
     color?: string;
 });
-declare const Flag: ({ variant, ...rest }: IconProps$_) => react_jsx_runtime.JSX.Element;
+declare const Battery2: ({ variant, ...rest }: IconProps$_) => react_jsx_runtime.JSX.Element;
 
 type variant$Z = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$Z = {
@@ -479,7 +479,7 @@ type IconProps$Z = {
     size?: string | number;
     color?: string;
 });
-declare const Flag2: ({ variant, ...rest }: IconProps$Z) => react_jsx_runtime.JSX.Element;
+declare const Chart: ({ variant, ...rest }: IconProps$Z) => react_jsx_runtime.JSX.Element;
 
 type variant$Y = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$Y = {
@@ -491,7 +491,7 @@ type IconProps$Y = {
     size?: string | number;
     color?: string;
 });
-declare const FlashCircle: ({ variant, ...rest }: IconProps$Y) => react_jsx_runtime.JSX.Element;
+declare const FilterSearch: ({ variant, ...rest }: IconProps$Y) => react_jsx_runtime.JSX.Element;
 
 type variant$X = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$X = {
@@ -503,7 +503,7 @@ type IconProps$X = {
     size?: string | number;
     color?: string;
 });
-declare const FlashSlash: ({ variant, ...rest }: IconProps$X) => react_jsx_runtime.JSX.Element;
+declare const AddSquare: ({ variant, ...rest }: IconProps$X) => react_jsx_runtime.JSX.Element;
 
 type variant$W = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$W = {
@@ -515,7 +515,7 @@ type IconProps$W = {
     size?: string | number;
     color?: string;
 });
-declare const Forbidden: ({ variant, ...rest }: IconProps$W) => react_jsx_runtime.JSX.Element;
+declare const MinusSquare: ({ variant, ...rest }: IconProps$W) => react_jsx_runtime.JSX.Element;
 
 type variant$V = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$V = {
@@ -527,7 +527,7 @@ type IconProps$V = {
     size?: string | number;
     color?: string;
 });
-declare const Forbidden2: ({ variant, ...rest }: IconProps$V) => react_jsx_runtime.JSX.Element;
+declare const Diamonds: ({ variant, ...rest }: IconProps$V) => react_jsx_runtime.JSX.Element;
 
 type variant$U = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$U = {
@@ -539,7 +539,7 @@ type IconProps$U = {
     size?: string | number;
     color?: string;
 });
-declare const Ghost: ({ variant, ...rest }: IconProps$U) => react_jsx_runtime.JSX.Element;
+declare const Slider: ({ variant, ...rest }: IconProps$U) => react_jsx_runtime.JSX.Element;
 
 type variant$T = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$T = {
@@ -551,7 +551,7 @@ type IconProps$T = {
     size?: string | number;
     color?: string;
 });
-declare const Glass: ({ variant, ...rest }: IconProps$T) => react_jsx_runtime.JSX.Element;
+declare const Triangle: ({ variant, ...rest }: IconProps$T) => react_jsx_runtime.JSX.Element;
 
 type variant$S = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$S = {
@@ -563,7 +563,7 @@ type IconProps$S = {
     size?: string | number;
     color?: string;
 });
-declare const Grammerly: ({ variant, ...rest }: IconProps$S) => react_jsx_runtime.JSX.Element;
+declare const _3DCube: ({ variant, ...rest }: IconProps$S) => react_jsx_runtime.JSX.Element;
 
 type variant$R = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$R = {
@@ -575,7 +575,7 @@ type IconProps$R = {
     size?: string | number;
     color?: string;
 });
-declare const HappyEmoji: ({ variant, ...rest }: IconProps$R) => react_jsx_runtime.JSX.Element;
+declare const BatteryCharging: ({ variant, ...rest }: IconProps$R) => react_jsx_runtime.JSX.Element;
 
 type variant$Q = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$Q = {
@@ -587,7 +587,7 @@ type IconProps$Q = {
     size?: string | number;
     color?: string;
 });
-declare const Home: ({ variant, ...rest }: IconProps$Q) => react_jsx_runtime.JSX.Element;
+declare const Trash: ({ variant, ...rest }: IconProps$Q) => react_jsx_runtime.JSX.Element;
 
 type variant$P = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$P = {
@@ -599,7 +599,7 @@ type IconProps$P = {
     size?: string | number;
     color?: string;
 });
-declare const Home2: ({ variant, ...rest }: IconProps$P) => react_jsx_runtime.JSX.Element;
+declare const Status: ({ variant, ...rest }: IconProps$P) => react_jsx_runtime.JSX.Element;
 
 type variant$O = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$O = {
@@ -611,7 +611,7 @@ type IconProps$O = {
     size?: string | number;
     color?: string;
 });
-declare const Home3: ({ variant, ...rest }: IconProps$O) => react_jsx_runtime.JSX.Element;
+declare const MouseSquare: ({ variant, ...rest }: IconProps$O) => react_jsx_runtime.JSX.Element;
 
 type variant$N = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$N = {
@@ -623,7 +623,7 @@ type IconProps$N = {
     size?: string | number;
     color?: string;
 });
-declare const HomeWifi: ({ variant, ...rest }: IconProps$N) => react_jsx_runtime.JSX.Element;
+declare const FilterEdit: ({ variant, ...rest }: IconProps$N) => react_jsx_runtime.JSX.Element;
 
 type variant$M = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$M = {
@@ -635,7 +635,7 @@ type IconProps$M = {
     size?: string | number;
     color?: string;
 });
-declare const InfoCircle: ({ variant, ...rest }: IconProps$M) => react_jsx_runtime.JSX.Element;
+declare const Warning2: ({ variant, ...rest }: IconProps$M) => react_jsx_runtime.JSX.Element;
 
 type variant$L = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$L = {
@@ -647,7 +647,7 @@ type IconProps$L = {
     size?: string | number;
     color?: string;
 });
-declare const Information: ({ variant, ...rest }: IconProps$L) => react_jsx_runtime.JSX.Element;
+declare const Bubble: ({ variant, ...rest }: IconProps$L) => react_jsx_runtime.JSX.Element;
 
 type variant$K = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$K = {
@@ -659,7 +659,7 @@ type IconProps$K = {
     size?: string | number;
     color?: string;
 });
-declare const Instagram: ({ variant, ...rest }: IconProps$K) => react_jsx_runtime.JSX.Element;
+declare const Sticker: ({ variant, ...rest }: IconProps$K) => react_jsx_runtime.JSX.Element;
 
 type variant$J = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$J = {
@@ -671,7 +671,7 @@ type IconProps$J = {
     size?: string | number;
     color?: string;
 });
-declare const Judge: ({ variant, ...rest }: IconProps$J) => react_jsx_runtime.JSX.Element;
+declare const Ghost: ({ variant, ...rest }: IconProps$J) => react_jsx_runtime.JSX.Element;
 
 type variant$I = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$I = {
@@ -683,7 +683,7 @@ type IconProps$I = {
     size?: string | number;
     color?: string;
 });
-declare const Lamp: ({ variant, ...rest }: IconProps$I) => react_jsx_runtime.JSX.Element;
+declare const Mouse: ({ variant, ...rest }: IconProps$I) => react_jsx_runtime.JSX.Element;
 
 type variant$H = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$H = {
@@ -695,7 +695,7 @@ type IconProps$H = {
     size?: string | number;
     color?: string;
 });
-declare const Level: ({ variant, ...rest }: IconProps$H) => react_jsx_runtime.JSX.Element;
+declare const Glass: ({ variant, ...rest }: IconProps$H) => react_jsx_runtime.JSX.Element;
 
 type variant$G = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$G = {
@@ -707,7 +707,7 @@ type IconProps$G = {
     size?: string | number;
     color?: string;
 });
-declare const Menu: ({ variant, ...rest }: IconProps$G) => react_jsx_runtime.JSX.Element;
+declare const FilterSquare: ({ variant, ...rest }: IconProps$G) => react_jsx_runtime.JSX.Element;
 
 type variant$F = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$F = {
@@ -719,7 +719,7 @@ type IconProps$F = {
     size?: string | number;
     color?: string;
 });
-declare const Milk: ({ variant, ...rest }: IconProps$F) => react_jsx_runtime.JSX.Element;
+declare const Forbidden: ({ variant, ...rest }: IconProps$F) => react_jsx_runtime.JSX.Element;
 
 type variant$E = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$E = {
@@ -731,7 +731,7 @@ type IconProps$E = {
     size?: string | number;
     color?: string;
 });
-declare const Minus: ({ variant, ...rest }: IconProps$E) => react_jsx_runtime.JSX.Element;
+declare const Slash: ({ variant, ...rest }: IconProps$E) => react_jsx_runtime.JSX.Element;
 
 type variant$D = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$D = {
@@ -743,7 +743,7 @@ type IconProps$D = {
     size?: string | number;
     color?: string;
 });
-declare const MinusCircle: ({ variant, ...rest }: IconProps$D) => react_jsx_runtime.JSX.Element;
+declare const AutoBrightness: ({ variant, ...rest }: IconProps$D) => react_jsx_runtime.JSX.Element;
 
 type variant$C = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$C = {
@@ -755,7 +755,7 @@ type IconProps$C = {
     size?: string | number;
     color?: string;
 });
-declare const MinusSquare: ({ variant, ...rest }: IconProps$C) => react_jsx_runtime.JSX.Element;
+declare const Add: ({ variant, ...rest }: IconProps$C) => react_jsx_runtime.JSX.Element;
 
 type variant$B = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$B = {
@@ -767,7 +767,7 @@ type IconProps$B = {
     size?: string | number;
     color?: string;
 });
-declare const Mirror: ({ variant, ...rest }: IconProps$B) => react_jsx_runtime.JSX.Element;
+declare const Pet: ({ variant, ...rest }: IconProps$B) => react_jsx_runtime.JSX.Element;
 
 type variant$A = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$A = {
@@ -779,7 +779,7 @@ type IconProps$A = {
     size?: string | number;
     color?: string;
 });
-declare const MoreCircle: ({ variant, ...rest }: IconProps$A) => react_jsx_runtime.JSX.Element;
+declare const Flag2: ({ variant, ...rest }: IconProps$A) => react_jsx_runtime.JSX.Element;
 
 type variant$z = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$z = {
@@ -791,7 +791,7 @@ type IconProps$z = {
     size?: string | number;
     color?: string;
 });
-declare const MoreSquare: ({ variant, ...rest }: IconProps$z) => react_jsx_runtime.JSX.Element;
+declare const Chrome: ({ variant, ...rest }: IconProps$z) => react_jsx_runtime.JSX.Element;
 
 type variant$y = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$y = {
@@ -803,7 +803,7 @@ type IconProps$y = {
     size?: string | number;
     color?: string;
 });
-declare const Mouse: ({ variant, ...rest }: IconProps$y) => react_jsx_runtime.JSX.Element;
+declare const TickSquare: ({ variant, ...rest }: IconProps$y) => react_jsx_runtime.JSX.Element;
 
 type variant$x = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$x = {
@@ -815,7 +815,7 @@ type IconProps$x = {
     size?: string | number;
     color?: string;
 });
-declare const MouseCircle: ({ variant, ...rest }: IconProps$x) => react_jsx_runtime.JSX.Element;
+declare const CloseSquare: ({ variant, ...rest }: IconProps$x) => react_jsx_runtime.JSX.Element;
 
 type variant$w = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$w = {
@@ -827,7 +827,7 @@ type IconProps$w = {
     size?: string | number;
     color?: string;
 });
-declare const MouseSquare: ({ variant, ...rest }: IconProps$w) => react_jsx_runtime.JSX.Element;
+declare const Menu: ({ variant, ...rest }: IconProps$w) => react_jsx_runtime.JSX.Element;
 
 type variant$v = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$v = {
@@ -839,7 +839,7 @@ type IconProps$v = {
     size?: string | number;
     color?: string;
 });
-declare const Pet: ({ variant, ...rest }: IconProps$v) => react_jsx_runtime.JSX.Element;
+declare const Coffee: ({ variant, ...rest }: IconProps$v) => react_jsx_runtime.JSX.Element;
 
 type variant$u = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$u = {
@@ -851,7 +851,7 @@ type IconProps$u = {
     size?: string | number;
     color?: string;
 });
-declare const Ranking: ({ variant, ...rest }: IconProps$u) => react_jsx_runtime.JSX.Element;
+declare const Judge: ({ variant, ...rest }: IconProps$u) => react_jsx_runtime.JSX.Element;
 
 type variant$t = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$t = {
@@ -863,7 +863,7 @@ type IconProps$t = {
     size?: string | number;
     color?: string;
 });
-declare const Reserve: ({ variant, ...rest }: IconProps$t) => react_jsx_runtime.JSX.Element;
+declare const Broom: ({ variant, ...rest }: IconProps$t) => react_jsx_runtime.JSX.Element;
 
 type variant$s = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$s = {
@@ -875,7 +875,7 @@ type IconProps$s = {
     size?: string | number;
     color?: string;
 });
-declare const SafeHome: ({ variant, ...rest }: IconProps$s) => react_jsx_runtime.JSX.Element;
+declare const Computing: ({ variant, ...rest }: IconProps$s) => react_jsx_runtime.JSX.Element;
 
 type variant$r = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$r = {
@@ -887,7 +887,7 @@ type IconProps$r = {
     size?: string | number;
     color?: string;
 });
-declare const Send: ({ variant, ...rest }: IconProps$r) => react_jsx_runtime.JSX.Element;
+declare const FilterRemove: ({ variant, ...rest }: IconProps$r) => react_jsx_runtime.JSX.Element;
 
 type variant$q = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$q = {
@@ -899,7 +899,7 @@ type IconProps$q = {
     size?: string | number;
     color?: string;
 });
-declare const Send2: ({ variant, ...rest }: IconProps$q) => react_jsx_runtime.JSX.Element;
+declare const Cd: ({ variant, ...rest }: IconProps$q) => react_jsx_runtime.JSX.Element;
 
 type variant$p = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$p = {
@@ -911,7 +911,7 @@ type IconProps$p = {
     size?: string | number;
     color?: string;
 });
-declare const Share: ({ variant, ...rest }: IconProps$p) => react_jsx_runtime.JSX.Element;
+declare const Reserve: ({ variant, ...rest }: IconProps$p) => react_jsx_runtime.JSX.Element;
 
 type variant$o = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$o = {
@@ -923,7 +923,7 @@ type IconProps$o = {
     size?: string | number;
     color?: string;
 });
-declare const Share1: ({ variant, ...rest }: IconProps$o) => react_jsx_runtime.JSX.Element;
+declare const Home3: ({ variant, ...rest }: IconProps$o) => react_jsx_runtime.JSX.Element;
 
 type variant$n = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$n = {
@@ -935,7 +935,7 @@ type IconProps$n = {
     size?: string | number;
     color?: string;
 });
-declare const SignPost: ({ variant, ...rest }: IconProps$n) => react_jsx_runtime.JSX.Element;
+declare const EmojiHappy: ({ variant, ...rest }: IconProps$n) => react_jsx_runtime.JSX.Element;
 
 type variant$m = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$m = {
@@ -947,7 +947,7 @@ type IconProps$m = {
     size?: string | number;
     color?: string;
 });
-declare const Slash: ({ variant, ...rest }: IconProps$m) => react_jsx_runtime.JSX.Element;
+declare const Level: ({ variant, ...rest }: IconProps$m) => react_jsx_runtime.JSX.Element;
 
 type variant$l = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$l = {
@@ -959,7 +959,7 @@ type IconProps$l = {
     size?: string | number;
     color?: string;
 });
-declare const Slider: ({ variant, ...rest }: IconProps$l) => react_jsx_runtime.JSX.Element;
+declare const AddCircle: ({ variant, ...rest }: IconProps$l) => react_jsx_runtime.JSX.Element;
 
 type variant$k = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$k = {
@@ -971,7 +971,7 @@ type IconProps$k = {
     size?: string | number;
     color?: string;
 });
-declare const SmartHome: ({ variant, ...rest }: IconProps$k) => react_jsx_runtime.JSX.Element;
+declare const Filter: ({ variant, ...rest }: IconProps$k) => react_jsx_runtime.JSX.Element;
 
 type variant$j = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$j = {
@@ -983,7 +983,7 @@ type IconProps$j = {
     size?: string | number;
     color?: string;
 });
-declare const Sort: ({ variant, ...rest }: IconProps$j) => react_jsx_runtime.JSX.Element;
+declare const Grammerly: ({ variant, ...rest }: IconProps$j) => react_jsx_runtime.JSX.Element;
 
 type variant$i = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$i = {
@@ -995,7 +995,7 @@ type IconProps$i = {
     size?: string | number;
     color?: string;
 });
-declare const Sound: ({ variant, ...rest }: IconProps$i) => react_jsx_runtime.JSX.Element;
+declare const Send2: ({ variant, ...rest }: IconProps$i) => react_jsx_runtime.JSX.Element;
 
 type variant$h = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$h = {
@@ -1007,7 +1007,7 @@ type IconProps$h = {
     size?: string | number;
     color?: string;
 });
-declare const Speedometer: ({ variant, ...rest }: IconProps$h) => react_jsx_runtime.JSX.Element;
+declare const MoreCircle: ({ variant, ...rest }: IconProps$h) => react_jsx_runtime.JSX.Element;
 
 type variant$g = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$g = {
@@ -1019,7 +1019,7 @@ type IconProps$g = {
     size?: string | number;
     color?: string;
 });
-declare const Status: ({ variant, ...rest }: IconProps$g) => react_jsx_runtime.JSX.Element;
+declare const Home2: ({ variant, ...rest }: IconProps$g) => react_jsx_runtime.JSX.Element;
 
 type variant$f = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$f = {
@@ -1031,7 +1031,7 @@ type IconProps$f = {
     size?: string | number;
     color?: string;
 });
-declare const Sticker: ({ variant, ...rest }: IconProps$f) => react_jsx_runtime.JSX.Element;
+declare const Send: ({ variant, ...rest }: IconProps$f) => react_jsx_runtime.JSX.Element;
 
 type variant$e = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$e = {
@@ -1043,7 +1043,7 @@ type IconProps$e = {
     size?: string | number;
     color?: string;
 });
-declare const Story: ({ variant, ...rest }: IconProps$e) => react_jsx_runtime.JSX.Element;
+declare const Sound: ({ variant, ...rest }: IconProps$e) => react_jsx_runtime.JSX.Element;
 
 type variant$d = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$d = {
@@ -1055,7 +1055,7 @@ type IconProps$d = {
     size?: string | number;
     color?: string;
 });
-declare const TagCross: ({ variant, ...rest }: IconProps$d) => react_jsx_runtime.JSX.Element;
+declare const InfoCircle: ({ variant, ...rest }: IconProps$d) => react_jsx_runtime.JSX.Element;
 
 type variant$c = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$c = {
@@ -1067,7 +1067,7 @@ type IconProps$c = {
     size?: string | number;
     color?: string;
 });
-declare const TagRight: ({ variant, ...rest }: IconProps$c) => react_jsx_runtime.JSX.Element;
+declare const Share1: ({ variant, ...rest }: IconProps$c) => react_jsx_runtime.JSX.Element;
 
 type variant$b = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$b = {
@@ -1079,7 +1079,7 @@ type IconProps$b = {
     size?: string | number;
     color?: string;
 });
-declare const TickCircle: ({ variant, ...rest }: IconProps$b) => react_jsx_runtime.JSX.Element;
+declare const Instagram: ({ variant, ...rest }: IconProps$b) => react_jsx_runtime.JSX.Element;
 
 type variant$a = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$a = {
@@ -1091,7 +1091,7 @@ type IconProps$a = {
     size?: string | number;
     color?: string;
 });
-declare const TickSquare: ({ variant, ...rest }: IconProps$a) => react_jsx_runtime.JSX.Element;
+declare const BatteryDisable: ({ variant, ...rest }: IconProps$a) => react_jsx_runtime.JSX.Element;
 
 type variant$9 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$9 = {
@@ -1103,7 +1103,7 @@ type IconProps$9 = {
     size?: string | number;
     color?: string;
 });
-declare const Trash: ({ variant, ...rest }: IconProps$9) => react_jsx_runtime.JSX.Element;
+declare const MouseCircle: ({ variant, ...rest }: IconProps$9) => react_jsx_runtime.JSX.Element;
 
 type variant$8 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$8 = {
@@ -1115,7 +1115,7 @@ type IconProps$8 = {
     size?: string | number;
     color?: string;
 });
-declare const TrashSquare: ({ variant, ...rest }: IconProps$8) => react_jsx_runtime.JSX.Element;
+declare const FlashSlash: ({ variant, ...rest }: IconProps$8) => react_jsx_runtime.JSX.Element;
 
 type variant$7 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$7 = {
@@ -1127,7 +1127,7 @@ type IconProps$7 = {
     size?: string | number;
     color?: string;
 });
-declare const Tree: ({ variant, ...rest }: IconProps$7) => react_jsx_runtime.JSX.Element;
+declare const Danger: ({ variant, ...rest }: IconProps$7) => react_jsx_runtime.JSX.Element;
 
 type variant$6 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$6 = {
@@ -1139,7 +1139,7 @@ type IconProps$6 = {
     size?: string | number;
     color?: string;
 });
-declare const Triangle: ({ variant, ...rest }: IconProps$6) => react_jsx_runtime.JSX.Element;
+declare const WifiSquare: ({ variant, ...rest }: IconProps$6) => react_jsx_runtime.JSX.Element;
 
 type variant$5 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$5 = {
@@ -1151,7 +1151,7 @@ type IconProps$5 = {
     size?: string | number;
     color?: string;
 });
-declare const Verify: ({ variant, ...rest }: IconProps$5) => react_jsx_runtime.JSX.Element;
+declare const Story: ({ variant, ...rest }: IconProps$5) => react_jsx_runtime.JSX.Element;
 
 type variant$4 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$4 = {
@@ -1163,7 +1163,7 @@ type IconProps$4 = {
     size?: string | number;
     color?: string;
 });
-declare const Warning2: ({ variant, ...rest }: IconProps$4) => react_jsx_runtime.JSX.Element;
+declare const Cake: ({ variant, ...rest }: IconProps$4) => react_jsx_runtime.JSX.Element;
 
 type variant$3 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$3 = {
@@ -1175,7 +1175,7 @@ type IconProps$3 = {
     size?: string | number;
     color?: string;
 });
-declare const Weight: ({ variant, ...rest }: IconProps$3) => react_jsx_runtime.JSX.Element;
+declare const MinusCircle: ({ variant, ...rest }: IconProps$3) => react_jsx_runtime.JSX.Element;
 
 type variant$2 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$2 = {
@@ -1187,7 +1187,7 @@ type IconProps$2 = {
     size?: string | number;
     color?: string;
 });
-declare const Wifi: ({ variant, ...rest }: IconProps$2) => react_jsx_runtime.JSX.Element;
+declare const Share: ({ variant, ...rest }: IconProps$2) => react_jsx_runtime.JSX.Element;
 
 type variant$1 = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps$1 = {
@@ -1199,7 +1199,7 @@ type IconProps$1 = {
     size?: string | number;
     color?: string;
 });
-declare const WifiSquare: ({ variant, ...rest }: IconProps$1) => react_jsx_runtime.JSX.Element;
+declare const Mirror: ({ variant, ...rest }: IconProps$1) => react_jsx_runtime.JSX.Element;
 
 type variant = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
 type IconProps = {
@@ -1211,6 +1211,14 @@ type IconProps = {
     size?: string | number;
     color?: string;
 });
-declare const _3DCube: ({ variant, ...rest }: IconProps) => react_jsx_runtime.JSX.Element;
+declare const FlashCircle: ({ variant, ...rest }: IconProps) => react_jsx_runtime.JSX.Element;
 
-export { Add, AddCircle, AddSquare, Archive, AutoBrightness, Battery2, BatteryCharging, BatteryDisable, BatteryEmpty, BatteryEmpty2, BatteryFull, Box2, Broom, Bubble, Cake, Cd, Chart, Chrome, CloseCircle, CloseSquare, Coffee, Computing, Crown, Crown2, Cup, Danger, Diamonds, Discover, EmojiHappy, EmojiNormal, EmojiSad, Filter, FilterAdd, FilterEdit, FilterRemove, FilterSearch, FilterSquare, FilterTick, Flag, Flag2, FlashCircle, FlashSlash, Forbidden, Forbidden2, Ghost, Glass, Grammerly, HappyEmoji, Home, Home2, Home3, HomeWifi, InfoCircle, Information, Instagram, Judge, Lamp, Level, Menu, Milk, Minus, MinusCircle, MinusSquare, Mirror, MoreCircle, MoreSquare, Mouse, MouseCircle, MouseSquare, Pet, Ranking, Reserve, SafeHome, Send, Send2, Share, Share1, SignPost, Slash, Slider, SmartHome, Sort, Sound, Speedometer, Status, Sticker, Story, TagCross, TagRight, TickCircle, TickSquare, Trash, TrashSquare, Tree, Triangle, Verify, Warning2, Weight, Wifi, WifiSquare, _3DCube };
+type IconVariant = "bold" | "broken" | "bulk" | "linear" | "outline" | "twotone";
+type Icon = {
+    name: string;
+    tags: string[];
+    categories: string[];
+    jsxComponentName: string;
+};
+
+export { Add, AddCircle, AddSquare, Archive, AutoBrightness, Battery2, BatteryCharging, BatteryDisable, BatteryEmpty, BatteryEmpty2, BatteryFull, Box2, Broom, Bubble, Cake, Cd, Chart, Chrome, CloseCircle, CloseSquare, Coffee, Computing, Crown, Crown2, Cup, Danger, Diamonds, Discover, EmojiHappy, EmojiNormal, EmojiSad, Filter, FilterAdd, FilterEdit, FilterRemove, FilterSearch, FilterSquare, FilterTick, Flag, Flag2, FlashCircle, FlashSlash, Forbidden, Forbidden2, Ghost, Glass, Grammerly, HappyEmoji, Home, Home2, Home3, HomeWifi, type Icon, type IconVariant, InfoCircle, Information, Instagram, Judge, Lamp, Level, Menu, Milk, Minus, MinusCircle, MinusSquare, Mirror, MoreCircle, MoreSquare, Mouse, MouseCircle, MouseSquare, Pet, Ranking, Reserve, SafeHome, Send, Send2, Share, Share1, SignPost, Slash, Slider, SmartHome, Sort, Sound, Speedometer, Status, Sticker, Story, TagCross, TagRight, TickCircle, TickSquare, Trash, TrashSquare, Tree, Triangle, Verify, Warning2, Weight, Wifi, WifiSquare, _3DCube };
