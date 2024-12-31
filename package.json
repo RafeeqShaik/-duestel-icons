@@ -17,7 +17,7 @@
     "generate-index": "bun run scripts/generate-index.ts",
     "generate-and-modify-icons": "bun run generate-icons && bun run scripts/modify-icons.ts && bun run generate-index",
     "build": "bun run generate-and-modify-icons && npx tsup",
-    "prepublishOnly": "bun run build",
+    "seeder": "bun ./scripts/seeder.ts",
     "publish": "npm publish --access public"
   },
   "keywords": [
